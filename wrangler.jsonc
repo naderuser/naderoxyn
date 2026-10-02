@@ -14,7 +14,7 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "PUT-YOUR-KV-NAMESPACE-ID-HERE"
+      "id": "011f57ef5345491d9436223cb40b083f"
     }
   ],
 
@@ -24,7 +24,7 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "011f57ef5345491d9436223cb40b083f",
+      "database_name": "naderjs-db",
       "database_id": "a1fff0de-afc5-4eba-9cd8-5e1b1b69d409"
     }
   ]
