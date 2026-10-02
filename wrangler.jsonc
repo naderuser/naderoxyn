@@ -1,7 +1,7 @@
 {
   // اسم Worker: باید دقیقاً همان اسمی باشد که در داشبورد کلودفلر داری
   // (Workers & Pages -> اسم Worker). اگر فرق کند، کلودفلر یک Worker جدید می‌سازد.
-  "name": "PUT-YOUR-WORKER-NAME-HERE",
+  "name": "naderplantium",
 
   // فایل اصلی کد در همین ریپازیتوری
   "main": "worker.js",
@@ -24,8 +24,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "PUT-YOUR-D1-DATABASE-NAME-HERE",
-      "database_id": "PUT-YOUR-D1-DATABASE-ID-HERE"
+      "database_name": "011f57ef5345491d9436223cb40b083f",
+      "database_id": "a1fff0de-afc5-4eba-9cd8-5e1b1b69d409"
     }
   ]
 
