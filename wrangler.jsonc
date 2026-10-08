@@ -1,7 +1,7 @@
 {
   // اسم Worker: باید دقیقاً همان اسمی باشد که در داشبورد کلودفلر داری
   // (Workers & Pages -> اسم Worker). اگر فرق کند، کلودفلر یک Worker جدید می‌سازد.
-  "name": "naderonyx",
+  "name": "nadervpnn",
 
   // فایل اصلی کد در همین ریپازیتوری
   "main": "worker.js",
