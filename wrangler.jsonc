@@ -1,7 +1,7 @@
 {
   // اسم Worker: باید دقیقاً همان اسمی باشد که در داشبورد کلودفلر داری
   // (Workers & Pages -> اسم Worker). اگر فرق کند، کلودفلر یک Worker جدید می‌سازد.
-  "name": "naderplantium",
+  "name": "naderonyx",
 
   // فایل اصلی کد در همین ریپازیتوری
   "main": "worker.js",
@@ -14,7 +14,7 @@
   "kv_namespaces": [
     {
       "binding": "KV",
-      "id": "011f57ef5345491d9436223cb40b083f"
+      "id": "3755f3862e234f50b0d318d3dad40b82"
     }
   ],
 
@@ -24,8 +24,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "naderjs-db",
-      "database_id": "a1fff0de-afc5-4eba-9cd8-5e1b1b69d409"
+      "database_name": "naderonyx1",
+      "database_id": "3acb7572-c6c2-4e44-a47d-90a140792902"
     }
   ]
 
