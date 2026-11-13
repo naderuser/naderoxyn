@@ -35,3 +35,4 @@
   // رمز پنل (ADMIN) را اینجا نگذار، چون ریپازیتوری در دسترس است.
   // آن را فقط در داشبورد بگذار: Settings -> Variables and Secrets -> ADMIN (نوع Secret)
 }
+
