@@ -1,0 +1,37 @@
+{
+  // اسم Worker: باید دقیقاً همان اسمی باشد که در داشبورد کلودفلر داری
+  // (Workers & Pages -> اسم Worker). اگر فرق کند، کلودفلر یک Worker جدید می‌سازد.
+  "name": "naderoxynh",
+
+  // فایل اصلی کد در همین ریپازیتوری
+  "main": "worker.js",
+
+  "compatibility_date": "2026-03-17",
+
+  // اتصال KV: اسم binding باید دقیقاً KV باشد (کد از env.KV می‌خواند)
+  // KV را نگه دار: کد داده‌های قبلی را از KV به D1 منتقل می‌کند.
+  "kv_namespaces": [
+    {
+      "binding": "KV",
+      "id": "bef8c872b651470b9080fb5f176bc30f"
+    }
+  ],
+
+  // اتصال D1: اسم binding باید دقیقاً DB باشد (کد از env.DB می‌خواند)
+  // جدول kv خودکار ساخته می‌شود و migration لازم نیست.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "bpbbi",
+      "database_id": "010a4f0f-7246-4ba9-a22b-b64e265cbd39"
+    }
+  ],
+
+  // لاگ‌ها: برای دیدن متن دقیق خطا (مثلاً ۱۱۰۱) در داشبورد Workers -> Logs
+  "observability": {
+    "enabled": true
+  }
+
+  // رمز پنل (ADMIN) را اینجا نگذار، چون ریپازیتوری در دسترس است.
+  // آن را فقط در داشبورد بگذار: Settings -> Variables and Secrets -> ADMIN (نوع Secret)
+}
